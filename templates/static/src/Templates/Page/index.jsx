@@ -1,4 +1,5 @@
 import React from "react";
+import { Outlet } from "react-router-dom";
 import Container, { Header, Main } from "./styles";
 
 function PageTemplate({ children, headerContent }) {
@@ -6,7 +7,9 @@ function PageTemplate({ children, headerContent }) {
     <Container>
       <Header>{headerContent}</Header>
       <Main>
-        <div>{children}</div>
+        <div>
+          <Outlet />
+        </div>
       </Main>
     </Container>
   );

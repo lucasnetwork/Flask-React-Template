@@ -23,6 +23,7 @@ export const Main = styled.main`
     width: 100%;
     max-width: 56.25rem;
     display: flex;
+    align-items: baseline;
     justify-content: center;
   }
 `;

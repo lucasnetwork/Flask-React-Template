@@ -7,7 +7,15 @@ export default styled.div`
   max-width: 20rem;
   flex-direction: column;
   row-gap: 0.5rem;
+  margin-top: 7rem;
+
   h2 {
     margin-bottom: 1.125rem;
+  }
+
+  button {
+    align-self: flex-end;
+    margin-top: 1.625rem;
+    max-width: 5.94rem;
   }
 `;

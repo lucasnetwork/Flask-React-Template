@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../../components/Button";
 import Input from "../../components/Input";
 import PageTemplate from "../../Templates/Page";
 import Container from "./styles";
@@ -10,6 +11,7 @@ function Login() {
         <h2>Realizar Login</h2>
         <Input placeholder="Login" />
         <Input placeholder="Senha" />
+        <Button>Entrar</Button>
       </Container>
     </PageTemplate>
   );

@@ -17,9 +17,12 @@ export const Main = styled.main`
   width: 100%;
   display: flex;
   flex: 1;
+  justify-content: center;
 
   > div {
     width: 100%;
-    max-width: 900px;
+    max-width: 56.25rem;
+    display: flex;
+    justify-content: center;
   }
 `;

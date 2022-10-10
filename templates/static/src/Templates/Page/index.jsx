@@ -1,11 +1,14 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
 import Container, { Header, Main } from "./styles";
+import logo from "../../assets/logo.png";
 
 function PageTemplate({ children, headerContent }) {
   return (
     <Container>
-      <Header>{headerContent}</Header>
+      <Header>
+        <img src={logo} alt="logo" />
+      </Header>
       <Main>
         <div>
           <Outlet />
